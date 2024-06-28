@@ -1,0 +1,90 @@
+{
+  "name": "Drug overdose deaths in the US (CDC WONDER)",
+  "title": "Drug overdose deaths in the US (CDC WONDER)",
+  "id": 852,
+  "description": "The National Center for Health Statistics (NCHS) at the Centers for Disease Control and Prevention collects information on deaths involving drugs commonly associated with fatal overdose. This information is available in a searchable database called <a href=\"https://wonder.cdc.gov/\">CDC Wonder</a>.",
+  "sources": [
+    {
+      "name": "US Centers for Disease Control and Prevention WONDER",
+      "link": "https://www.drugabuse.gov/related-topics/trends-statistics/overdose-death-rates",
+      "retrievedDate": "",
+      "additionalInfo": "The National Center for Health Statistics (NCHS) at the Centers for Disease Control and Prevention collects information on deaths involving drugs commonly associated with fatal overdose. This information is available in a searchable database called <a href=\"https://wonder.cdc.gov/\">CDC Wonder</a>.",
+      "dataPublishedBy": "US Centers for Disease Control and Prevention WONDER",
+      "dataPublisherSource": ""
+    }
+  ],
+  "owidTags": [
+    "Substance Use"
+  ],
+  "resources": [
+    {
+      "path": "Drug overdose deaths in the US (CDC WONDER).csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "Total overdose death rates (CDC WONDER)",
+            "type": "any",
+            "description": "Deaths per 100,000 people of total overdose deaths.",
+            "owidDisplaySettings": "{\"name\": \"Total overdoses\", \"unit\": \"deaths per 100,000\", \"includeInTable\": true, \"numDecimalPlaces\": 1}"
+          },
+          {
+            "name": "Prescription Opioids death rates (US CDC WONDER)",
+            "type": "any",
+            "description": "",
+            "owidDisplaySettings": "{\"name\": \"Prescription opioids\", \"unit\": \"deaths per 100,000\", \"includeInTable\": true, \"numDecimalPlaces\": 1}"
+          },
+          {
+            "name": "Benzodiazepine overdose death rates (CDC WONDER)",
+            "type": "any",
+            "description": "",
+            "owidDisplaySettings": "{\"name\": \"Benzodiazepines\", \"unit\": \"deaths per 100,000\", \"includeInTable\": true, \"numDecimalPlaces\": 1}"
+          },
+          {
+            "name": "Cocaine overdose death rates (CDC WONDER)",
+            "type": "any",
+            "description": "Death per rate of 100,000 people attributed to cocaine use.",
+            "owidDisplaySettings": "{\"name\": \"Cocaine\", \"unit\": \"deaths per 100,000\", \"includeInTable\": true, \"numDecimalPlaces\": 1}"
+          },
+          {
+            "name": "Heroin overdose death rates (CDC WONDER)",
+            "type": "any",
+            "description": "Death per rate of 100,000 people attributed to heroin use.",
+            "owidDisplaySettings": "{\"name\": \"Heroin\", \"unit\": \"deaths per 100,000\", \"includeInTable\": true, \"numDecimalPlaces\": 1}"
+          },
+          {
+            "name": "Any opioid death rates (CDC WONDER)",
+            "type": "any",
+            "description": "Deaths per 100,000 people attributed to any opioids.",
+            "owidDisplaySettings": "{\"name\": \"Any opioids\", \"unit\": \"deaths per 100,000\", \"includeInTable\": true, \"numDecimalPlaces\": 1}"
+          },
+          {
+            "name": "Synthetic opioids death rates (CDC WONDER)",
+            "type": "any",
+            "description": "Deaths per 100,000 people attributed to synthetic opioids other than methadone.",
+            "owidDisplaySettings": "{\"name\": \"Synthetic opioids\", \"unit\": \"deaths per 100,000\", \"includeInTable\": true}"
+          },
+          {
+            "name": "Psychostimulants death rates (US CDC WONDER)",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Psychostimulants\", \"unit\": \"deaths per 100,000\", \"includeInTable\": true, \"numDecimalPlaces\": 1}"
+          },
+          {
+            "name": "Antidepressant overdose death rates (US CDC WONDER)",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Antidepressants\", \"unit\": \"deaths per 100,000\", \"includeInTable\": true, \"numDecimalPlaces\": 1}"
+          }
+        ]
+      }
+    }
+  ]
+}

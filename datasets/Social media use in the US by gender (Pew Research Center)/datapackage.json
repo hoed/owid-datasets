@@ -1,0 +1,49 @@
+{
+  "name": "Social media use in the US by gender (Pew Research Center)",
+  "title": "Social media use in the US by gender (Pew Research Center)",
+  "id": 4195,
+  "description": "Respondents who did not give an answer are excluded from the estimates.",
+  "sources": [
+    {
+      "name": "Pew Research Center (2021)",
+      "link": "https://www.pewresearch.org/internet/fact-sheet/social-media/",
+      "retrievedDate": "2022-12-20",
+      "additionalInfo": "Respondents who did not give an answer are excluded from the estimates.",
+      "dataPublishedBy": "Pew Research Center",
+      "dataPublisherSource": "Survey of U.S. adults conducted Jan. 25-Feb. 8, 2021."
+    }
+  ],
+  "owidTags": [
+    "Internet",
+    "Social Media"
+  ],
+  "resources": [
+    {
+      "path": "Social media use in the US by gender (Pew Research Center).csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "Social media use among men in the US (%)",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"unit\": \"%\", \"shortUnit\": \"%\"}"
+          },
+          {
+            "name": "Social media use among women in the US (%)",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"unit\": \"%\", \"shortUnit\": \"%\", \"numDecimalPlaces\": 1}"
+          }
+        ]
+      }
+    }
+  ]
+}

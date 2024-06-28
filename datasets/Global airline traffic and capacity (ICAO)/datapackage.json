@@ -1,0 +1,84 @@
+{
+  "name": "Global airline traffic and capacity (ICAO)",
+  "title": "Global airline traffic and capacity (ICAO)",
+  "id": 5164,
+  "description": "The source notes that \"Traffic and operations data below reflects the systemwide scheduled activity of passenger and cargo airlines operating worldwide, as recorded by ICAO; domestic operations within the former USSR are excluded prior to 1970.\"",
+  "sources": [
+    {
+      "name": "International Civil Aviation Organization via Airlines for America (2023)",
+      "link": "https://www.airlines.org/dataset/world-airlines-traffic-and-capacity/",
+      "retrievedDate": "2023-04-03",
+      "additionalInfo": "The source notes that \"Traffic and operations data below reflects the systemwide scheduled activity of passenger and cargo airlines operating worldwide, as recorded by ICAO; domestic operations within the former USSR are excluded prior to 1970.\"",
+      "dataPublishedBy": "Airlines for America",
+      "dataPublisherSource": "International Civil Aviation Organization (ICAO)"
+    }
+  ],
+  "owidTags": [
+    "Transport"
+  ],
+  "resources": [
+    {
+      "path": "Global airline traffic and capacity (ICAO).csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "Aircraft Departures",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Global aircraft departures\", \"unit\": \"departures\", \"includeInTable\": true, \"numDecimalPlaces\": 0}"
+          },
+          {
+            "name": "Aircraft KMs",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Aircraft travel distance\", \"unit\": \"kilometers\", \"shortUnit\": \"km\", \"includeInTable\": true, \"numDecimalPlaces\": 0}"
+          },
+          {
+            "name": "ASKs",
+            "type": "any",
+            "description": "In the airline industry available kilometers is a measure of passenger carrying capacity. It is equal to the number of seats available multiplied by the number of kilometers flown. An available seat km is the fundamental unit of production for a passenger-carrying airline.",
+            "owidDisplaySettings": "{\"name\": \"Available seat kilometers\", \"unit\": \"available seat kilometers\", \"shortUnit\": \"km\", \"includeInTable\": true, \"numDecimalPlaces\": 0}"
+          },
+          {
+            "name": "Cargo RTKs",
+            "type": "any",
+            "description": "The number of revenue tonnes of cargo (freight and mail) carried multiplied by the\ndistance flown.",
+            "owidDisplaySettings": "{\"name\": \"Cargo revenue tonne kilometers\", \"unit\": \"tonne kilometers\", \"shortUnit\": \"t-km\", \"includeInTable\": true, \"numDecimalPlaces\": 0}"
+          },
+          {
+            "name": "Freight Tonnes",
+            "type": "any",
+            "description": "The number of revenue tonnes of freight transported by air.",
+            "owidDisplaySettings": "{\"name\": \"Freight tonnes\", \"unit\": \"tonnes\", \"shortUnit\": \"t\", \"includeInTable\": true, \"numDecimalPlaces\": 0}"
+          },
+          {
+            "name": "Passengers",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Global number of airline passengers\", \"unit\": \"passengers\", \"includeInTable\": true, \"numDecimalPlaces\": 0}"
+          },
+          {
+            "name": "PLF",
+            "type": "any",
+            "description": "The passenger load factor (PLF) measures the ratio of actual passengers to the available seats. It effectively measures the percentage of available seats that are taken by actual passengers.",
+            "owidDisplaySettings": "{\"name\": \"Global airline passenger load factor\", \"unit\": \"%\", \"shortUnit\": \"%\", \"includeInTable\": true, \"conversionFactor\": 100, \"numDecimalPlaces\": 0}"
+          },
+          {
+            "name": "RPKs",
+            "type": "any",
+            "description": "The number of revenue passengers carried multiplied by the distance flown.",
+            "owidDisplaySettings": "{\"name\": \"Airline revenue passenger kilometers\", \"unit\": \"kilometers\", \"shortUnit\": \"km\", \"includeInTable\": true, \"numDecimalPlaces\": 0}"
+          }
+        ]
+      }
+    }
+  ]
+}

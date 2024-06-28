@@ -1,0 +1,70 @@
+{
+  "name": "Lung cancer mortality rates (per 100,000) (2022)",
+  "title": "Lung cancer mortality rates (per 100,000) (2022)",
+  "id": 5628,
+  "description": "Age-standardized mortality rates (per 100,000 people) due to lung, bronchus or trachea cancer. The data is from the WHO Mortality database: https://platform.who.int/mortality\n\nThis dataset should be next updated by the source by May 2023. We will update it on Our World in Data soon after the new version is published. At the link above you can directly access the source page and see the latest available data.",
+  "sources": [
+    {
+      "name": "WHO Mortality Database (2022)",
+      "link": "https://platform.who.int/mortality/themes/theme-details/mdb/noncommunicable-diseases",
+      "retrievedDate": "2022-05-16",
+      "additionalInfo": "Age-standardized mortality rates (per 100,000 people) due to lung, bronchus or trachea cancer. The data is from the WHO Mortality database: https://platform.who.int/mortality\n\nThis dataset should be next updated by the source by May 2023. We will update it on Our World in Data soon after the new version is published. At the link above you can directly access the source page and see the latest available data.",
+      "dataPublishedBy": "World Health Organization",
+      "dataPublisherSource": "WHO Mortality Database"
+    }
+  ],
+  "owidTags": [],
+  "resources": [
+    {
+      "path": "Lung cancer mortality rates (per 100,000) (2022).csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "age-standardized_death_rate_per_100k_both_sexes",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Lung cancer deaths per 100,000\", \"unit\": \"deaths per 100,000\", \"includeInTable\": true, \"numDecimalPlaces\": 2}"
+          },
+          {
+            "name": "age-standardized_death_rate_per_100k_female",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Female lung cancer deaths per 100,000\", \"unit\": \"deaths per 100,000\", \"includeInTable\": true, \"numDecimalPlaces\": 2}"
+          },
+          {
+            "name": "age-standardized_death_rate_per_100k_male",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Male lung cancer deaths per 100,000\", \"unit\": \"deaths per 100,000\", \"includeInTable\": true, \"numDecimalPlaces\": 2}"
+          },
+          {
+            "name": "crude_death_rate_per_100k_both_sexes",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "crude_death_rate_per_100k_female",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          },
+          {
+            "name": "crude_death_rate_per_100k_male",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{}"
+          }
+        ]
+      }
+    }
+  ]
+}

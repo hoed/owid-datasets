@@ -1,0 +1,54 @@
+{
+  "name": "NIH - DNA Sequencing Costs",
+  "title": "NIH - DNA Sequencing Costs",
+  "id": 568,
+  "description": "The NHGRI program describes genome sequencing costs relative to two metrics, quoted below:\n\n\"(1) \"Cost per Megabase of DNA Sequence\" - the cost of determining one megabase (Mb; a million bases) of DNA sequence of a specified quality;\n\n(2) \"Cost per Genome\" - the cost of sequencing a human-sized genome.\"\n\nCost data from the NHGRI is presented bi-annually or seasonally for each year. We have summarized this data annually by calculating the lowest yearly cost.",
+  "sources": [
+    {
+      "name": "National Human Genome Research Institute (2022)",
+      "link": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data",
+      "retrievedDate": "2022-06-22",
+      "additionalInfo": "The NHGRI program describes genome sequencing costs relative to two metrics, quoted below:\n\n\"(1) \"Cost per Megabase of DNA Sequence\" - the cost of determining one megabase (Mb; a million bases) of DNA sequence of a specified quality;\n\n(2) \"Cost per Genome\" - the cost of sequencing a human-sized genome.\"\n\nCost data from the NHGRI is presented bi-annually or seasonally for each year. We have summarized this data annually by calculating the lowest yearly cost.",
+      "dataPublishedBy": "Wetterstrand KA. DNA Sequencing Costs: Data from the NHGRI Genome Sequencing Program (GSP)",
+      "dataPublisherSource": null
+    }
+  ],
+  "owidTags": [
+    "Technological Progress"
+  ],
+  "resources": [
+    {
+      "path": "NIH - DNA Sequencing Costs.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "cost_per_mb",
+            "type": "any",
+            "description": "",
+            "owidDisplaySettings": "{\"name\": \"Cost per megabase of DNA sequence\", \"unit\": \"current US$\", \"shortUnit\": \"$\", \"includeInTable\": true}"
+          },
+          {
+            "name": "cost_per_genome",
+            "type": "any",
+            "description": "",
+            "owidDisplaySettings": "{\"name\": \"Cost per genome\", \"unit\": \"current US$\", \"shortUnit\": \"$\", \"includeInTable\": true}"
+          },
+          {
+            "name": "base_pairs_per_dollar",
+            "type": "any",
+            "description": "",
+            "owidDisplaySettings": "{\"name\": \"Number of base pairs sequenced per US$ (GSP)\", \"unit\": \"base pairs\", \"shortUnit\": \"\", \"includeInTable\": true}"
+          }
+        ]
+      }
+    }
+  ]
+}

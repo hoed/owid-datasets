@@ -1,0 +1,42 @@
+{
+  "name": "Number of surveys in the past decade (World Bank PIP)",
+  "title": "Number of surveys in the past decade (World Bank PIP)",
+  "id": 5744,
+  "description": "This is a calculation from PIP data to get the number of surveys in the past decade, the sum of surveys for the current year and the 9 years before.",
+  "sources": [
+    {
+      "name": "World Bank Poverty and Inequality Platform (2022)",
+      "link": "https://pip.worldbank.org/",
+      "retrievedDate": "2022-10-03",
+      "additionalInfo": "This is a calculation from PIP data to get the number of surveys in the past decade, the sum of surveys for the current year and the 9 years before.",
+      "dataPublishedBy": "World Bank Poverty and Inequality Platform",
+      "dataPublisherSource": "World Bank. Data are based on primary household survey data obtained from government statistical agencies and World Bank country departments."
+    }
+  ],
+  "owidTags": [
+    "Poverty"
+  ],
+  "resources": [
+    {
+      "path": "Number of surveys in the past decade (World Bank PIP).csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "Number of surveys in the past decade",
+            "type": "any",
+            "description": "The number of income or expenditure surveys available in the past decade. Each decade comprises the current year and the nine years before.",
+            "owidDisplaySettings": "{\"includeInTable\": true, \"numDecimalPlaces\": 0}"
+          }
+        ]
+      }
+    }
+  ]
+}

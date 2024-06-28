@@ -1,0 +1,80 @@
+{
+  "name": "COVID-2019 - Hospital & ICU",
+  "title": "COVID-2019 - Hospital & ICU",
+  "id": 5205,
+  "description": "Our hospital & ICU data is collected from official sources and collated by Our World in Data. The complete list of country-by-country sources is available <a href=\"https://github.com/owid/covid-19-data/blob/master/public/data/hospitalizations/locations.csv\">on GitHub</a>.\n\nOur complete COVID-19 dataset is a collection of the COVID-19 data maintained by <em>Our World in Data</em>. <strong>It is updated daily</strong> and includes data on confirmed cases, deaths, and testing.\n\nWe have created a new description of all our data sources. You find it at our GitHub repository <strong><a href=\"https://github.com/owid/covid-19-data/tree/master/public/data/\">here</a></strong>. There you can download all of our data.",
+  "sources": [
+    {
+      "name": "Official data collated by Our World in Data",
+      "link": "https://github.com/owid/covid-19-data/tree/master/public/data/hospitalizations",
+      "additionalInfo": "Our hospital & ICU data is collected from official sources and collated by Our World in Data. The complete list of country-by-country sources is available <a href=\"https://github.com/owid/covid-19-data/blob/master/public/data/hospitalizations/locations.csv\">on GitHub</a>.\n\nOur complete COVID-19 dataset is a collection of the COVID-19 data maintained by <em>Our World in Data</em>. <strong>It is updated daily</strong> and includes data on confirmed cases, deaths, and testing.\n\nWe have created a new description of all our data sources. You find it at our GitHub repository <strong><a href=\"https://github.com/owid/covid-19-data/tree/master/public/data/\">here</a></strong>. There you can download all of our data.",
+      "dataPublishedBy": "Official data collated by Our World in Data"
+    }
+  ],
+  "owidTags": [],
+  "resources": [
+    {
+      "path": "COVID-2019 - Hospital & ICU.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Entity",
+            "type": "string"
+          },
+          {
+            "name": "Year",
+            "type": "year"
+          },
+          {
+            "name": "Daily ICU occupancy",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Current number of COVID-19 patients in ICU\", \"unit\": \"patients in ICU\", \"zeroDay\": \"2020-01-21\", \"yearIsDay\": true, \"includeInTable\": true, \"numDecimalPlaces\": 0, \"entityAnnotationsMap\": \"Hungary: patients on ventilator\"}"
+          },
+          {
+            "name": "Daily ICU occupancy per million",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Number of COVID-19 patients in ICU per million\", \"unit\": \"per million\", \"zeroDay\": \"2020-01-21\", \"yearIsDay\": true, \"includeInTable\": true, \"numDecimalPlaces\": 2, \"entityAnnotationsMap\": \"Hungary: patients on ventilator\"}"
+          },
+          {
+            "name": "Daily hospital occupancy",
+            "type": "any",
+            "description": "Daily hospital occupancy is the number of COVID-19 patients in hospital on a given day.",
+            "owidDisplaySettings": "{\"name\": \"Number of COVID-19 patients in hospital\", \"unit\": \"patients\", \"zeroDay\": \"2020-01-21\", \"yearIsDay\": true, \"includeInTable\": true, \"numDecimalPlaces\": 0}"
+          },
+          {
+            "name": "Daily hospital occupancy per million",
+            "type": "any",
+            "description": "Daily hospital occupancy is the number of COVID-19 patients in hospital on a given day.",
+            "owidDisplaySettings": "{\"name\": \"Number of COVID-19 patients in hospital per million\", \"unit\": \"per million\", \"zeroDay\": \"2020-01-21\", \"yearIsDay\": true, \"includeInTable\": true, \"numDecimalPlaces\": 2}"
+          },
+          {
+            "name": "Weekly new ICU admissions",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Weekly new ICU admissions for COVID-19\", \"unit\": \"ICU patients\", \"zeroDay\": \"2020-01-21\", \"yearIsDay\": true, \"includeInTable\": true, \"numDecimalPlaces\": 0, \"entityAnnotationsMap\": \"Hungary: patients on ventilator\"}"
+          },
+          {
+            "name": "Weekly new ICU admissions per million",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Weekly new ICU admissions for COVID-19 per million\", \"unit\": \"per million\", \"zeroDay\": \"2020-01-21\", \"yearIsDay\": true, \"includeInTable\": true, \"numDecimalPlaces\": 2}"
+          },
+          {
+            "name": "Weekly new hospital admissions",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Weekly new hospital admissions for COVID-19\", \"unit\": \"patients\", \"zeroDay\": \"2020-01-21\", \"yearIsDay\": true, \"includeInTable\": true, \"numDecimalPlaces\": 0}"
+          },
+          {
+            "name": "Weekly new hospital admissions per million",
+            "type": "any",
+            "description": null,
+            "owidDisplaySettings": "{\"name\": \"Weekly new hospital admissions for COVID-19 per million\", \"unit\": \"per million\", \"zeroDay\": \"2020-01-21\", \"yearIsDay\": true, \"includeInTable\": true, \"numDecimalPlaces\": 2}"
+          }
+        ]
+      }
+    }
+  ]
+}
